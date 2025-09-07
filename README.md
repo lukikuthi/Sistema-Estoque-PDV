@@ -14,14 +14,16 @@ Oferece gerenciamento de estoque, vendas, relatórios e interface interativa.
 ---
 
 ## Technologies  
-<img src="https://skillicons.dev/icons?i=csharp,dotnet" />
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+
 
 ---
 
-## 📸 Screenshots  
-| Tela Principal | Gerenciar Estoque | Nova Venda |
-|----------------|-----------------|-----------|
-| ![](https://raw.githubusercontent.com/lukikuthi/SistemaEstoquePDV/main/screenshots/tela_principal.png) | ![](https://raw.githubusercontent.com/lukikuthi/SistemaEstoquePDV/main/screenshots/gerenciar_estoque.png) | ![](https://raw.githubusercontent.com/lukikuthi/SistemaEstoquePDV/main/screenshots/nova_venda.png) |
+## 📹 Demo Video
+
+[![Watch the video](https://img.youtube.com/vi/shgl9tRx8qk/hqdefault.jpg)](https://www.youtube.com/watch?v=shgl9tRx8qk)
 
 ---
 
@@ -45,7 +47,7 @@ Oferece gerenciamento de estoque, vendas, relatórios e interface interativa.
 - Compilar: `Ctrl + Shift + B`
 - Rodar: `F5` ou `Ctrl + F5`  
 
-✅ "Conexão estabelecida com sucesso!" indica funcionamento correto.
+"Conexão estabelecida com sucesso!" indica funcionamento correto.
 
 ### Arquivo Setup pronto
 - Pasta Compactada (Arquivo .ZIP) dentro da pasta do projeto
