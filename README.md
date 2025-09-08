@@ -21,7 +21,7 @@ Oferece gerenciamento de estoque, vendas, relatórios e interface interativa.
 
 ---
 
-## 📹 Demo Video
+## Demo Video
 
 [![Watch the video](https://img.youtube.com/vi/shgl9tRx8qk/hqdefault.jpg)](https://www.youtube.com/watch?v=shgl9tRx8qk)
 
