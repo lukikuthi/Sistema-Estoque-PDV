@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FyGMEK7o+bY=",
+  "dgSpecHash": "lnWiKz2i29I=",
   "success": true,
-  "projectFilePath": "C:\\project\\SistemaEstoquePDV.csproj",
+  "projectFilePath": "C:\\project1\\SistemaEstoquePDV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
