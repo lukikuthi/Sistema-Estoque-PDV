@@ -1,15 +1,14 @@
-# Sistema Estoque & PDV
+# Stockly – Sistema Estoque & PDV
 
 ## Summary  
-Sistema completo de Estoque e Ponto de Venda (PDV) desenvolvido em **C#** usando console do Visual Studio, integrado ao **Supabase (PostgreSQL)**.  
-Oferece gerenciamento de estoque, vendas, relatórios e interface interativa.
-
+Sistema completo de Estoque e Ponto de Venda (PDV) desenvolvido em C# usando console do Visual Studio, integrado ao Supabase (PostgreSQL).
+Oferece gerenciamento de estoque, vendas, relatórios e interface interativa, com setup instalável pronto para uso imediato.
 ---
 
 ## Features
 - Gerenciamento de Estoque: cadastrar, editar, remover e listar produtos; atualizar estoque; alertas de estoque baixo.
 - Ponto de Venda (PDV): registrar novas vendas, consultar e cancelar vendas; aplicar descontos e múltiplas formas de pagamento (Dinheiro, Cartão, PIX).
-- Relatórios: produtos em baixo estoque, vendas por período, produtos mais vendidos e resumo financeiro.
+- Relatórios: produtos em baixo estoque, vendas por período, produtos mais vendidos e resumo financeiro completo.
 
 ---
 
@@ -50,8 +49,17 @@ Oferece gerenciamento de estoque, vendas, relatórios e interface interativa.
 "Conexão estabelecida com sucesso!" indica funcionamento correto.
 
 ### Arquivo Setup pronto
-- Pasta Compactada (Arquivo .ZIP) dentro da pasta do projeto
-- Extraia a pasta, instale e use o Sistema sem necessidade de executar nada
+- Arquivo .ZIP dentro da pasta do projeto
+- Extraia, instale e use o sistema sem necessidade de executar código manualmente
+
+## Arquivos Importantes
+- **Program.cs** – Entrada principal e menus  
+- **Services/SupabaseService.cs** – Conexão com Supabase  
+- **Models/** – Modelos de dados (Produto, Venda, ItemVenda)  
+- **Services/** – Lógica de negócio (Estoque e PDV)  
+- **Helpers/** – Utilitários de menu e validações  
+- **supabase_schema.sql** – Script do banco de dados  
+- **Stockly_Documentacao_Detalhada.pdf** – Manual completo do sistema  
 
 ---
 
