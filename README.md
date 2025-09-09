@@ -1,7 +1,7 @@
 # Stockly – Sistema Estoque & PDV 
 
 ## Summary  
-Stockly é um sistema completo de Estoque e Ponto de Venda (PDV) desenvolvido em C# utilizando o console do Visual Studio e integrado ao Supabase (PostgreSQL). O programa oferece gerenciamento de estoque, controle de vendas, geração de relatórios e uma interface interativa, contando com setup instalável pronto para uso imediato. O vídeo demonstrativo está desatualizado; entretanto, o projeto em si encontra-se sem erros, com o nome e a interface devidamente atualizados.
+Stockly é um sistema completo de Estoque e Ponto de Venda (PDV) desenvolvido em C# utilizando o console do Visual Studio e integrado ao Supabase (PostgreSQL). O programa oferece gerenciamento de estoque, controle de vendas, geração de relatórios e uma interface interativa, contando com setup instalável pronto para uso imediato.
 
 
 ## Features
@@ -21,7 +21,7 @@ Stockly é um sistema completo de Estoque e Ponto de Venda (PDV) desenvolvido em
 
 ## Demo Video
 
-[![Watch the video](https://img.youtube.com/vi/shgl9tRx8qk/hqdefault.jpg)](https://www.youtube.com/watch?v=shgl9tRx8qk)
+[![Watch the video](https://img.youtube.com/vi/JlXFCnExjWw/hqdefault.jpg)](https://www.youtube.com/watch?v=JlXFCnExjWw)
 
 ---
 
