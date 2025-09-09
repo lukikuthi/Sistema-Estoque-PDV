@@ -13,8 +13,8 @@ namespace SistemaEstoquePDV.Services
         public SupabaseService()
         {
             // SUBSTITUA ESTAS VARIÁVEIS PELAS SUAS CREDENCIAIS DO SUPABASE
-            _url = "https://orkxpvkyqmbtfpaywzos.supabase.co";
-            _key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ya3hwdmt5cW1idGZwYXl3em9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcxMjkxMTcsImV4cCI6MjA3MjcwNTExN30.mlwPE-SWsAvsnKze6ntinjxujpM_QcfUFbsdpaUsnYE";
+            _url = "SUA_URL_KEY_AQUI";
+            _key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9sInJlZiI6Im9ya3hwdmt5cW1idGZwYXl3em9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcxMjkxMTcsImV4cCI6MjA3MjcwNTExN30.mlwPE-SWsAvsnKze6ntinjxujpM_QcfUFbsdpaUsnYE";
 
             // Exemplo: 
             // _url = "https://xyzcompany.supabase.co";
