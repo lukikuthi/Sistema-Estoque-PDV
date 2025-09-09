@@ -33,7 +33,7 @@ namespace SistemaEstoquePDV
 
         private static async Task InicializarServicos()
         {
-            Console.WriteLine("=== SISTEMA DE ESTOQUE E PDV ===");
+            Console.WriteLine("=== SISTEMA STOCKLY - ESTOQUE & PDV ===");
             Console.WriteLine("Inicializando conexão com Supabase...");
             
             _supabaseService = new SupabaseService();
@@ -56,15 +56,15 @@ namespace SistemaEstoquePDV
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("╔════════════════════════════════════════╗");
-                Console.WriteLine("║          SISTEMA ESTOQUE & PDV         ║");
-                Console.WriteLine("╚════════════════════════════════════════╝");
+                Console.WriteLine("╔══════════════════════════════════════════╗");
+                Console.WriteLine("║          Stockly | ESTOQUE & PDV         ║");
+                Console.WriteLine("╚══════════════════════════════════════════╝");
                 Console.ForegroundColor = ConsoleColor.White;
                 
-                Console.WriteLine("\n📦 [1] Gerenciar Estoque");
-                Console.WriteLine("💰 [2] Ponto de Venda (PDV)");
-                Console.WriteLine("📊 [3] Relatórios");
-                Console.WriteLine("❌ [0] Sair");
+                Console.WriteLine("\n[1] Gerenciar Estoque");
+                Console.WriteLine("[2] Ponto de Venda (PDV)");
+                Console.WriteLine("[3] Relatórios");
+                Console.WriteLine("[0] Sair");
                 
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Write("\nEscolha uma opção: ");
@@ -84,7 +84,7 @@ namespace SistemaEstoquePDV
                         break;
                     case "0":
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("\nObrigado por usar o Sistema de Estoque e PDV!");
+                        Console.WriteLine("\nObrigado por usar o Sistema STOCKLY! - GIT/LUKIKUTHI");
                         return;
                     default:
                         MenuHelper.ExibirMensagem("Opção inválida! Tente novamente.", ConsoleColor.Red);
@@ -104,13 +104,13 @@ namespace SistemaEstoquePDV
                 Console.WriteLine("╚════════════════════════════════════════╝");
                 Console.ForegroundColor = ConsoleColor.White;
                 
-                Console.WriteLine("\n➕ [1] Cadastrar Produto");
-                Console.WriteLine("📋 [2] Listar Produtos");
-                Console.WriteLine("✏️  [3] Editar Produto");
-                Console.WriteLine("🗑️  [4] Remover Produto");
-                Console.WriteLine("📈 [5] Atualizar Estoque");
-                Console.WriteLine("🔍 [6] Buscar Produto");
-                Console.WriteLine("⬅️  [0] Voltar ao Menu Principal");
+                Console.WriteLine("\n[1] Cadastrar Produto");
+                Console.WriteLine("[2] Listar Produtos");
+                Console.WriteLine("[3] Editar Produto");
+                Console.WriteLine("[4] Remover Produto");
+                Console.WriteLine("[5] Atualizar Estoque");
+                Console.WriteLine("[6] Buscar Produto");
+                Console.WriteLine("[0] Voltar ao Menu Principal");
                 
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Write("\nEscolha uma opção: ");
@@ -157,11 +157,11 @@ namespace SistemaEstoquePDV
                 Console.WriteLine("╚════════════════════════════════════════╝");
                 Console.ForegroundColor = ConsoleColor.White;
                 
-                Console.WriteLine("\n🛒 [1] Nova Venda");
-                Console.WriteLine("📋 [2] Vendas do Dia");
-                Console.WriteLine("🔍 [3] Consultar Venda");
-                Console.WriteLine("❌ [4] Cancelar Venda");
-                Console.WriteLine("⬅️  [0] Voltar ao Menu Principal");
+                Console.WriteLine("\n[1] Nova Venda");
+                Console.WriteLine("[2] Vendas do Dia");
+                Console.WriteLine("[3] Consultar Venda");
+                Console.WriteLine("[4] Cancelar Venda");
+                Console.WriteLine("[0] Voltar ao Menu Principal");
                 
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Write("\nEscolha uma opção: ");
@@ -202,11 +202,11 @@ namespace SistemaEstoquePDV
                 Console.WriteLine("╚════════════════════════════════════════╝");
                 Console.ForegroundColor = ConsoleColor.White;
                 
-                Console.WriteLine("\n📊 [1] Produtos em Baixo Estoque");
-                Console.WriteLine("💰 [2] Vendas por Período");
-                Console.WriteLine("🏆 [3] Produtos Mais Vendidos");
-                Console.WriteLine("📈 [4] Resumo Financeiro");
-                Console.WriteLine("⬅️  [0] Voltar ao Menu Principal");
+                Console.WriteLine("\n[1] Produtos em Baixo Estoque");
+                Console.WriteLine("[2] Vendas por Período");
+                Console.WriteLine("[3] Produtos Mais Vendidos");
+                Console.WriteLine("[4] Resumo Financeiro");
+                Console.WriteLine("[0] Voltar ao Menu Principal");
                 
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Write("\nEscolha uma opção: ");

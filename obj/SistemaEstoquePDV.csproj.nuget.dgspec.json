@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\SistemaEstoquePDV.csproj": {}
+    "C:\\project1\\SistemaEstoquePDV.csproj": {}
   },
   "projects": {
-    "C:\\project\\SistemaEstoquePDV.csproj": {
+    "C:\\project1\\SistemaEstoquePDV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\SistemaEstoquePDV.csproj",
+        "projectUniqueName": "C:\\project1\\SistemaEstoquePDV.csproj",
         "projectName": "SistemaEstoquePDV",
-        "projectPath": "C:\\project\\SistemaEstoquePDV.csproj",
+        "projectPath": "C:\\project1\\SistemaEstoquePDV.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\obj\\",
+        "outputPath": "C:\\project1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

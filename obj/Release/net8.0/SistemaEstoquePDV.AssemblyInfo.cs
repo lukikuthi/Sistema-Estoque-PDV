@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaEstoquePDV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14b0e5139c9a5d6e01a1c4b047cf85e1bd2130d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+294ec205c5188a693cfc2c55f4998543ab134119")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaEstoquePDV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaEstoquePDV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
