@@ -1,23 +1,3 @@
-/*
-  # Schema do Sistema de Estoque e PDV
-
-  Este arquivo contém todo o schema necessário para o Sistema de Estoque e PDV.
-  Execute este script no SQL Editor do seu projeto Supabase.
-
-  ## Tabelas criadas:
-  1. produtos - Armazena informações dos produtos
-  2. vendas - Armazena informações das vendas
-  3. itens_venda - Armazena os itens de cada venda
-
-  ## Segurança:
-  - RLS habilitado em todas as tabelas
-  - Políticas para operações CRUD
-*/
-
--- Limpar tabelas existentes se necessário (remova os comentários se precisar recriar)
--- DROP TABLE IF EXISTS itens_venda CASCADE;
--- DROP TABLE IF EXISTS vendas CASCADE;
--- DROP TABLE IF EXISTS produtos CASCADE;
 
 -- Extensões necessárias
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
